@@ -21,6 +21,35 @@ void ED_ISR(){
 }
 
 
+void NTP_write(byte SL_AD=NTP_ADDRESS, byte BL_AD1=0x00, byte BL_AD0=0x00, int N=1, ...){
+
+  int l_ParamVal = 0x00;
+
+  va_list l_Arg;
+  va_start(l_Arg, N);
+
+
+
+  Serial.println("Writing data (AA) to adress 00 02");
+  
+  //WRITE DATA p. 102
+  Wire.beginTransmission(SL_AD); 
+  
+  Wire.write(BL_AD1); // sends first (most significant) bytes of adress
+  Wire.write(BL_AD0); // sends second (least significant) bytes of adress
+  
+  // Sends data to be stored
+  for ( int i; i < N; ++i) {
+    Wire.write(va_arg(l_Arg, byte)); 
+
+  }
+  Wire.endTransmission();    // stop transmitting
+
+  va_end(l_Arg);
+
+}
+
+
 
 void setup() {
   Serial.begin(9600); // Start serial interface 
@@ -40,10 +69,12 @@ void loop() {
     ED_ISR();
   } 
 
+  //NTP_write(NTP_ADDRESS, 0x00, 0x02, 4, 0x01, 0x02, 0x03, 0x04);
+
+  delay(10);
 
 
-}
-/*
+
   Serial.println("Writing data (AA) to adress 00 02");
   
   //WRITE DATA p. 102
@@ -78,9 +109,10 @@ void loop() {
 
   while (Wire.available()) { // slave may send less than requested
     char c = Wire.read();   // Read bytes as char
-    Serial.println(c);      // Print the character
+    Serial.print(c);      // Print the character
+    Serial.print(", ");
   }
   Serial.println("Done");
 
-*/
+
 }
