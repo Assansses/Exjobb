@@ -1,0 +1,10 @@
+19:29:20 **** Incremental Build of configuration Debug for project ADC_Internal_Reference ****
+make -j16 all 
+arm-none-eabi-size  ADC_Internal_Reference.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9900	     12	   1716	  11628	   2d6c	ADC_Internal_Reference.elf
+Finished building: default.size.stdout
+ 
+
+19:29:20 Build Finished. 0 errors, 0 warnings. (took 236ms)
+
