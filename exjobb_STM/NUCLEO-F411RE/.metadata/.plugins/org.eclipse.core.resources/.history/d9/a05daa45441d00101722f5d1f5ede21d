@@ -99,7 +99,7 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   //HAL_ADCEx_Calibration_Start(&hadc1, ADC_SINGLE_ENDED);
-  //HAL_ADC_Start(&hadc1);
+  HAL_ADC_Start(&hadc1);
 
   /* USER CODE END 2 */
 
@@ -108,13 +108,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-
-	  HAL_ADC_Start(&hadc1);
 	  HAL_ADC_PollForConversion(&hadc1, 20);
 	  adc_value = HAL_ADC_GetValue(&hadc1);
 
+    /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
 }

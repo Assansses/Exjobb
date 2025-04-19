@@ -110,11 +110,6 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-
-	  HAL_ADC_Start(&hadc1);
-	  HAL_ADC_PollForConversion(&hadc1, 20);
-	  adc_value = HAL_ADC_GetValue(&hadc1);
-
   }
   /* USER CODE END 3 */
 }
