@@ -1,0 +1,123 @@
+15:53:18 **** Incremental Build of configuration Debug for project e_ink_SPI_L011K4 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L011xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "e_ink_SPI_L011K4.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\STM32L011K4TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="e_ink_SPI_L011K4.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: e_ink_SPI_L011K4.elf
+ 
+arm-none-eabi-size  e_ink_SPI_L011K4.elf 
+arm-none-eabi-objdump -h -S e_ink_SPI_L011K4.elf  > "e_ink_SPI_L011K4.list"
+   text	   data	    bss	    dec	    hex	filename
+   8220	     12	   1660	   9892	   26a4	e_ink_SPI_L011K4.elf
+Finished building: default.size.stdout
+ 
+Finished building: e_ink_SPI_L011K4.list
+ 
+15:59:33 **** Incremental Build of configuration Debug for project e_ink_SPI_L011K4 ****
+make -j4 all 
+arm-none-eabi-size  e_ink_SPI_L011K4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8220	     12	   1660	   9892	   26a4	e_ink_SPI_L011K4.elf
+Finished building: default.size.stdout
+ 
+15:59:47 **** Incremental Build of configuration Debug for project e_ink_SPI_L011K4 ****
+make -j4 all 
+arm-none-eabi-size  e_ink_SPI_L011K4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8220	     12	   1660	   9892	   26a4	e_ink_SPI_L011K4.elf
+Finished building: default.size.stdout
+ 
+16:11:14 **** Incremental Build of configuration Debug for project e_ink_SPI_L011K4 ****
+make -j4 all 
+arm-none-eabi-size  e_ink_SPI_L011K4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8220	     12	   1660	   9892	   26a4	e_ink_SPI_L011K4.elf
+Finished building: default.size.stdout
+ 
+16:15:22 **** Incremental Build of configuration Debug for project e_ink_SPI_L011K4 ****
+make -j4 all 
+arm-none-eabi-size  e_ink_SPI_L011K4.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8220	     12	   1660	   9892	   26a4	e_ink_SPI_L011K4.elf
+Finished building: default.size.stdout
+ 
+16:17:10 **** Build of configuration Debug for project VREF_L011K4 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L011xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'MPU_Config':
+../Core/Src/main.c:68:5: warning: implicit declaration of function 'HAL_MPU_Disable'; did you mean 'HAL_PWR_DisablePVD'? [-Wimplicit-function-declaration]
+   68 |     HAL_MPU_Disable();
+      |     ^~~~~~~~~~~~~~~
+      |     HAL_PWR_DisablePVD
+../Core/Src/main.c:72:5: error: unknown type name 'MPU_Region_InitTypeDef'; did you mean 'UART_InitTypeDef'?
+   72 |     MPU_Region_InitTypeDef MPU_InitStruct;
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+      |     UART_InitTypeDef
+../Core/Src/main.c:73:19: error: request for member 'Enable' in something not a structure or union
+   73 |     MPU_InitStruct.Enable = MPU_REGION_ENABLE;
+      |                   ^
+../Core/Src/main.c:73:29: error: 'MPU_REGION_ENABLE' undeclared (first use in this function)
+   73 |     MPU_InitStruct.Enable = MPU_REGION_ENABLE;
+      |                             ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:73:29: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:74:19: error: request for member 'Number' in something not a structure or union
+   74 |     MPU_InitStruct.Number = MPU_REGION_NUMBER0;
+      |                   ^
+../Core/Src/main.c:74:29: error: 'MPU_REGION_NUMBER0' undeclared (first use in this function)
+   74 |     MPU_InitStruct.Number = MPU_REGION_NUMBER0;
+      |                             ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:75:19: error: request for member 'BaseAddress' in something not a structure or union
+   75 |     MPU_InitStruct.BaseAddress = 0x08fff800;
+      |                   ^
+../Core/Src/main.c:76:19: error: request for member 'LimitAddress' in something not a structure or union
+   76 |     MPU_InitStruct.LimitAddress = 0x08fff900;
+      |                   ^
+../Core/Src/main.c:77:19: error: request for member 'AttributesIndex' in something not a structure or union
+   77 |     MPU_InitStruct.AttributesIndex = MPU_ATTRIBUTES_NUMBER0;
+      |                   ^
+../Core/Src/main.c:77:38: error: 'MPU_ATTRIBUTES_NUMBER0' undeclared (first use in this function)
+   77 |     MPU_InitStruct.AttributesIndex = MPU_ATTRIBUTES_NUMBER0;
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:78:19: error: request for member 'AccessPermission' in something not a structure or union
+   78 |     MPU_InitStruct.AccessPermission = MPU_REGION_ALL_RO;
+      |                   ^
+../Core/Src/main.c:78:39: error: 'MPU_REGION_ALL_RO' undeclared (first use in this function)
+   78 |     MPU_InitStruct.AccessPermission = MPU_REGION_ALL_RO;
+      |                                       ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:79:19: error: request for member 'DisableExec' in something not a structure or union
+   79 |     MPU_InitStruct.DisableExec = MPU_INSTRUCTION_ACCESS_DISABLE;
+      |                   ^
+../Core/Src/main.c:79:34: error: 'MPU_INSTRUCTION_ACCESS_DISABLE' undeclared (first use in this function)
+   79 |     MPU_InitStruct.DisableExec = MPU_INSTRUCTION_ACCESS_DISABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:80:19: error: request for member 'IsShareable' in something not a structure or union
+   80 |     MPU_InitStruct.IsShareable = MPU_ACCESS_OUTER_SHAREABLE;
+      |                   ^
+../Core/Src/main.c:80:34: error: 'MPU_ACCESS_OUTER_SHAREABLE' undeclared (first use in this function)
+   80 |     MPU_InitStruct.IsShareable = MPU_ACCESS_OUTER_SHAREABLE;
+      |                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:81:5: warning: implicit declaration of function 'HAL_MPU_ConfigRegion' [-Wimplicit-function-declaration]
+   81 |     HAL_MPU_ConfigRegion(&MPU_InitStruct);
+      |     ^~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:83:5: warning: implicit declaration of function 'HAL_MPU_Enable'; did you mean 'HAL_PWR_EnablePVD'? [-Wimplicit-function-declaration]
+   83 |     HAL_MPU_Enable(MPU_PRIVILEGED_DEFAULT);
+      |     ^~~~~~~~~~~~~~
+      |     HAL_PWR_EnablePVD
+../Core/Src/main.c:83:20: error: 'MPU_PRIVILEGED_DEFAULT' undeclared (first use in this function)
+   83 |     HAL_MPU_Enable(MPU_PRIVILEGED_DEFAULT);
+      |                    ^~~~~~~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:17:55 **** Incremental Build of configuration Debug for project VREF_L011K4 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0plus -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L011xx -c -I../Core/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc -I../Drivers/STM32L0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-g++ -o "VREF_L011K4.elf" @"objects.list"   -mcpu=cortex-m0plus -T"C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\VREF_L011K4\STM32L011K4TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="VREF_L011K4.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+Finished building target: VREF_L011K4.elf
+ 
+arm-none-eabi-size  VREF_L011K4.elf 
+arm-none-eabi-objdump -h -S VREF_L011K4.elf  > "VREF_L011K4.list"
+   text	   data	    bss	    dec	    hex	filename
+  11700	     12	   1812	  13524	   34d4	VREF_L011K4.elf
+Finished building: default.size.stdout
+ 
+Finished building: VREF_L011K4.list
+ 

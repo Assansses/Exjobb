@@ -1,0 +1,10 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C-com Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPModes Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:VREFINT Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:blink Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:e-ink_SPI Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:e_ink_SPI_L011K4 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:VREF_L011K4 Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C-com\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:I2C-com\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:LPModes\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:VREF_L011K4\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:e-ink_SPI\ Debug/activeLaunchMode=run

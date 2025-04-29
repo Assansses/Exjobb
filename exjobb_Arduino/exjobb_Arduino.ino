@@ -62,13 +62,35 @@ void NTP_EEPROM_read(uint8_t SL_AD, uint8_t BL_AD1, uint8_t BL_AD0){
 
   while (Wire.available()) { // slave may send less than requested
     char c = Wire.read();    // Read bytes as char
-    Serial.print(c, HEX);    // Print the character
+    Serial.print(c, BIN);    // Print the character
     Serial.print(", ");
   }
   Serial.println("");
 }
 
+void NTP_READ_REGISTER(uint8_t SL_AD, uint8_t BL_AD1, uint8_t BL_AD0, uint8_t REGA){
 
+  Serial.print("Reading data from adress ");
+  Serial.print(BL_AD1, HEX); Serial.println(BL_AD0, HEX);
+
+  //READ DATA p. 102
+  //Prepare adress
+  Wire.beginTransmission(SL_AD); // Write start adress 
+
+  Wire.write(BL_AD1); // sends first (most significant) bytes of adress
+  Wire.write(BL_AD0); // sends second (least significant) bytes of adress
+  Wire.write(REGA);
+
+  Wire.endTransmission(); // Send device adress, memmory adress and a stop bit
+
+  Wire.requestFrom(SL_AD, (uint8_t)1);    // Wait for 4 bytes from the device (NTP5332)
+
+  while (Wire.available()) { // slave may send less than requested
+    char c = Wire.read();    // Read bytes as char
+    Serial.print(c, BIN);    // Print the character
+  }
+  Serial.println("");
+}
 
 void setup() {
   Serial.begin(9600); // Start serial interface 
@@ -82,8 +104,11 @@ void setup() {
 
   //103D
   //EH_CONFIG, RFU, ED_CONFIG, RFU
-  NTP_EEPROM_write(NTP_ADDRESS, 0x10, 0x3D, 0b00000001,0x00,0x01,0x00); // Configure EH and ED
-  NTP_EEPROM_read(NTP_ADDRESS, 0x10, 0x3D);
+  //NTP_EEPROM_write(NTP_ADDRESS, 0x10, 0x3D, 0b00000101,0x00,0x01,0x00); // Configure EH and ED
+  //NTP_EEPROM_read(NTP_ADDRESS, 0x10, 0x3D);
+
+
+  NTP_READ_REGISTER(NTP_ADDRESS, 0x10, 0xA1, 0x4); //Read config register
 
 
 

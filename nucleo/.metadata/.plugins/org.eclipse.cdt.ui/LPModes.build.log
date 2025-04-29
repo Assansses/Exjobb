@@ -1,0 +1,10 @@
+11:08:41 **** Incremental Build of configuration Debug for project LPModes ****
+make -j4 all 
+arm-none-eabi-size  LPModes.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8176	     12	   1644	   9832	   2668	LPModes.elf
+Finished building: default.size.stdout
+ 
+
+11:08:42 Build Finished. 0 errors, 0 warnings. (took 405ms)
+

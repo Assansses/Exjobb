@@ -1,0 +1,1022 @@
+2025-04-29 09:25:00,933 [INFO] WebApp:190 - Connection lost
+2025-04-29 09:25:04,089 [INFO] WebApp:187 - Connection restablished
+2025-04-29 09:25:07,273 [INFO] WebApp:190 - Connection lost
+2025-04-29 09:25:11,691 [INFO] WebApp:187 - Connection restablished
+2025-04-29 09:25:15,409 [INFO] WebApp:190 - Connection lost
+2025-04-29 09:25:15,867 [INFO] WebApp:187 - Connection restablished
+2025-04-29 09:26:06,384 [INFO] WebApp:190 - Connection lost
+2025-04-29 09:26:06,532 [INFO] WebApp:187 - Connection restablished
+2025-04-29 10:01:46,245 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:02:46,162 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:02:46,288 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:02:46,603 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:02:46,682 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:03:52,135 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:03:52,229 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:03:52,490 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:03:52,592 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:04:06,095 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:04:06,186 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:04:06,492 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:04:06,581 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:05:17,213 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:05:17,323 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:05:17,563 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:05:17,724 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:05:19,865 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:05:19,935 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:05:20,129 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:05:20,204 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:05:59,048 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:05:59,105 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:05:59,278 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:05:59,344 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:06:11,818 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 814293736 Bytes (1073741824)
+2025-04-29 10:06:14,077 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 900803304 Bytes (1073741824)
+2025-04-29 10:06:15,602 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 10:06:15,602 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 10:06:15,603 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 10:06:15,603 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 10:06:15,604 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 10:06:15,605 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 10:06:15,994 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 10:06:16,773 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 10:06:16,937 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 10:06:17,587 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 10:06:17,908 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 10:06:18,675 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 10:06:18,707 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 10:06:18,917 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 10:06:18,987 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 10:06:19,358 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 10:06:19,386 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 10:06:19,571 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 10:06:19,671 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 10:06:19,912 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 10:06:20,053 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 10:06:20,449 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 10:06:20,508 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 10:06:20,875 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 10:06:21,767 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 451mS.
+2025-04-29 10:06:21,775 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 10:06:21,980 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 10:06:26,196 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 4420mS.
+2025-04-29 10:06:26,197 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 10:06:26,201 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 10:22:17,513 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:22:17,660 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:22:18,007 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:22:18,092 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:22,463 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:22,558 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:22,849 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:22,967 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:41,112 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:41,202 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:41,459 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:41,545 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:44,045 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:44,141 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:44,275 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:44,366 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:23:44,575 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:23:44,652 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:24:03,193 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:24:03,304 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:24:03,538 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:24:03,650 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:25:49,645 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 773343520 Bytes (1073741824)
+2025-04-29 10:25:51,851 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 842027288 Bytes (1073741824)
+2025-04-29 10:25:53,535 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 10:25:53,535 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 10:25:53,536 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 10:25:53,536 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 10:25:53,536 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 10:25:53,538 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 10:25:53,786 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 10:25:54,702 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 10:25:54,845 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 10:25:55,380 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 10:25:55,631 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 10:25:56,387 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 10:25:56,402 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 10:25:56,627 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 10:25:56,669 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 10:25:57,079 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 10:25:57,100 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 10:25:57,285 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 10:25:57,331 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 10:25:57,670 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 10:25:57,788 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 10:25:58,230 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 10:25:58,264 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 10:25:58,627 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 10:25:59,398 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 360mS.
+2025-04-29 10:25:59,406 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 10:25:59,607 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 10:26:03,825 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 4419mS.
+2025-04-29 10:26:03,826 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 10:26:03,830 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 10:32:00,952 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:32:01,012 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:32:01,110 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:32:01,201 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:32:01,449 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:32:01,522 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:32:17,706 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 909598512 Bytes (1073741824)
+2025-04-29 10:32:19,302 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 975389632 Bytes (1073741824)
+2025-04-29 10:32:19,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 10:32:19,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 10:32:19,915 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 10:32:19,916 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 10:32:19,916 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 10:32:19,917 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 10:32:20,147 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 10:32:20,423 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 10:32:20,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 10:32:20,781 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 10:32:20,962 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 10:32:21,316 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 10:32:21,329 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 10:32:21,464 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 10:32:21,499 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 10:32:21,655 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 10:32:21,663 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 10:32:21,750 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 10:32:21,786 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 10:32:21,935 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 10:32:22,037 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 10:32:22,199 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 10:32:22,227 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 10:32:22,481 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 10:32:23,062 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 267mS.
+2025-04-29 10:32:23,068 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 10:32:23,195 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 10:32:26,483 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 3414mS.
+2025-04-29 10:32:26,484 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 10:32:26,488 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 10:34:01,415 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:34:01,487 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:34:01,623 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:34:01,693 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:34:01,900 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 10:34:01,989 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 10:34:27,811 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 699669672 Bytes (1073741824)
+2025-04-29 10:34:29,040 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 764037744 Bytes (1073741824)
+2025-04-29 10:34:29,592 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 10:34:29,593 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 10:34:29,593 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 10:34:29,593 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 10:34:29,593 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 10:34:29,595 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 10:34:29,732 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 10:34:29,866 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 10:34:29,949 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 10:34:30,136 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 10:34:30,287 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 10:34:30,479 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 10:34:30,490 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 10:34:30,579 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 10:34:30,618 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 10:34:30,805 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 10:34:30,812 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 10:34:30,891 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 10:34:30,924 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 10:34:31,079 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 10:34:31,176 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 10:34:31,316 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 10:34:31,338 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 10:34:31,550 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 10:34:32,045 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 272mS.
+2025-04-29 10:34:32,051 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 10:34:32,224 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 10:34:34,056 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2004mS.
+2025-04-29 10:34:34,057 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 10:34:34,061 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 10:40:58,735 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 803186384 Bytes (1073741824)
+2025-04-29 10:41:00,196 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 750830920 Bytes (1073741824)
+2025-04-29 10:41:00,883 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 10:41:00,883 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 10:41:00,883 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 10:41:00,883 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 10:41:00,883 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 10:41:00,884 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 10:41:01,058 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 10:41:01,286 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 10:41:01,323 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 10:41:01,608 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 10:41:01,756 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 10:41:02,233 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 10:41:02,243 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 10:41:02,357 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 10:41:02,408 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 10:41:02,606 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 10:41:02,615 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 10:41:02,683 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 10:41:02,759 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 10:41:02,923 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 10:41:03,010 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 10:41:03,158 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 10:41:03,185 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 10:41:03,412 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 10:41:03,959 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 272mS.
+2025-04-29 10:41:03,964 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 10:41:04,059 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 10:41:06,114 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2151mS.
+2025-04-29 10:41:06,115 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 10:41:06,121 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 11:13:13,844 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 720856864 Bytes (1073741824)
+2025-04-29 11:13:15,827 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 758197168 Bytes (1073741824)
+2025-04-29 11:13:16,943 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 11:13:16,944 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 11:13:16,945 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 11:13:16,947 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 11:13:16,948 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 11:13:16,952 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 11:13:17,134 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 11:13:17,690 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 11:13:17,765 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 11:13:18,145 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 11:13:18,345 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 11:13:18,994 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 11:13:19,008 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 11:13:19,205 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 11:13:19,253 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 11:13:19,636 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 11:13:19,645 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 11:13:19,782 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 11:13:19,826 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 11:13:20,093 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 11:13:20,215 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 11:13:20,517 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 11:13:20,574 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 11:13:20,893 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 11:13:21,650 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 321mS.
+2025-04-29 11:13:21,657 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 11:13:21,873 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 11:13:24,629 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2972mS.
+2025-04-29 11:13:24,632 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 11:13:24,654 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 4mS.
+2025-04-29 11:20:34,430 [INFO] WebApp:190 - Connection lost
+2025-04-29 11:20:34,720 [INFO] WebApp:187 - Connection restablished
+2025-04-29 12:39:21,124 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 708262848 Bytes (1073741824)
+2025-04-29 12:39:22,776 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 777468864 Bytes (1073741824)
+2025-04-29 12:39:23,533 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 12:39:23,542 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 12:39:23,542 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 12:39:23,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 12:39:23,543 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 12:39:23,545 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 12:39:23,756 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 12:39:24,444 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 12:39:24,572 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 12:39:25,070 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 12:39:25,290 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 12:39:26,066 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 12:39:26,082 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 12:39:26,341 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 12:39:26,392 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 12:39:26,896 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 12:39:26,909 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 12:39:27,146 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 12:39:27,193 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 12:39:27,581 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 12:39:27,733 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 12:39:28,121 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 12:39:28,157 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 12:39:28,628 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 12:39:29,457 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 380mS.
+2025-04-29 12:39:29,464 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 12:39:29,750 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 12:39:35,271 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 5806mS.
+2025-04-29 12:39:35,281 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 9mS.
+2025-04-29 12:39:35,299 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 12:55:45,806 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 15:15:59,134 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 950977232 Bytes (1073741824)
+2025-04-29 15:16:00,295 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 728987216 Bytes (1073741824)
+2025-04-29 15:16:01,182 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 15:16:01,183 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 15:16:01,183 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 15:16:01,185 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 15:16:01,186 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 15:16:01,188 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 15:16:01,565 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 15:16:02,270 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 15:16:02,458 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 15:16:03,004 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 15:16:03,289 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 15:16:04,008 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 15:16:04,023 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 15:16:04,288 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 15:16:04,355 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 15:16:04,807 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 15:16:04,825 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 15:16:04,993 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 15:16:05,050 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 15:16:05,293 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 15:16:05,419 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 15:16:05,739 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 15:16:05,795 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 15:16:06,127 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 15:16:06,757 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 299mS.
+2025-04-29 15:16:06,764 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 15:16:07,020 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 15:16:10,413 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 3649mS.
+2025-04-29 15:16:10,414 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 15:16:10,419 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 15:21:07,655 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 953984944 Bytes (1073741824)
+2025-04-29 15:21:10,264 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 987539376 Bytes (1073741824)
+2025-04-29 15:21:11,811 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 707141528 Bytes (1073741824)
+2025-04-29 15:21:12,575 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 15:21:12,575 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 15:21:12,575 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 15:21:12,576 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 15:21:12,576 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 15:21:12,578 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 15:21:12,816 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 15:21:13,563 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 15:21:13,673 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 15:21:14,164 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 15:21:14,339 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 15:21:15,047 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 15:21:15,061 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 15:21:15,254 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 15:21:15,297 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 15:21:15,746 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 15:21:15,753 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 15:21:15,933 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 15:21:15,972 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 15:21:16,287 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 15:21:16,425 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 15:21:16,737 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 15:21:16,783 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 15:21:17,184 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 15:21:18,037 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 322mS.
+2025-04-29 15:21:18,055 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 15:21:18,318 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 15:21:22,111 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 4059mS.
+2025-04-29 15:21:22,112 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 15:21:22,117 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 15:23:48,090 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 941581128 Bytes (1073741824)
+2025-04-29 15:23:49,403 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 696446736 Bytes (1073741824)
+2025-04-29 15:23:50,182 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 15:23:50,183 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 15:23:50,183 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 15:23:50,183 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 15:23:50,183 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 15:23:50,185 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 15:23:50,371 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 15:23:50,688 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 15:23:50,834 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 15:23:51,130 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 15:23:51,349 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 15:23:51,653 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 15:23:51,664 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 15:23:51,877 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 15:23:51,922 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 15:23:52,143 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 15:23:52,151 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 15:23:52,250 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 15:23:52,286 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 15:23:52,447 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 15:23:52,596 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 15:23:52,810 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 15:23:52,841 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 15:23:53,150 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 15:23:53,681 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 264mS.
+2025-04-29 15:23:53,688 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 15:23:53,851 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 15:23:56,272 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2584mS.
+2025-04-29 15:23:56,273 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 15:23:56,287 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 15:28:46,098 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 15:28:46,275 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 15:28:46,612 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 15:28:46,737 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 15:31:02,354 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 15:31:02,759 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 15:31:03,015 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 15:31:03,131 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 15:31:03,456 [INFO] Gpio:277 - dependency for GPIO [RCC, SPI1, SYS]
+2025-04-29 15:31:03,560 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-04-29 15:31:44,011 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 741954880 Bytes (1073741824)
+2025-04-29 15:31:45,816 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 766408912 Bytes (1073741824)
+2025-04-29 15:31:47,260 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 807488832 Bytes (1073741824)
+2025-04-29 15:31:48,912 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SPI
+2025-04-29 15:31:48,912 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 15:31:48,912 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 15:31:48,913 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 15:31:48,914 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 15:31:48,915 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 15:31:49,777 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp_save
+2025-04-29 15:31:50,554 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\license.tmp
+2025-04-29 15:31:50,665 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp_save
+2025-04-29 15:31:51,228 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\gpio.tmp
+2025-04-29 15:31:51,416 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c_save
+2025-04-29 15:31:52,216 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_it.c
+2025-04-29 15:31:52,231 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h_save
+2025-04-29 15:31:52,422 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_it.h
+2025-04-29 15:31:52,481 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c_save
+2025-04-29 15:31:52,861 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\stm32f4xx_hal_msp.c
+2025-04-29 15:31:52,869 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp_save
+2025-04-29 15:31:53,060 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\MXTmpFiles\system.tmp
+2025-04-29 15:31:53,103 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h_save
+2025-04-29 15:31:53,464 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\stm32f4xx_hal_conf.h
+2025-04-29 15:31:53,653 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h_save
+2025-04-29 15:31:54,091 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Inc\main.h
+2025-04-29 15:31:54,141 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c_save
+2025-04-29 15:31:54,551 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e-ink_SPI\Core\Src\main.c
+2025-04-29 15:31:56,273 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 311mS.
+2025-04-29 15:31:56,280 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 15:31:56,486 [INFO] ConfigFileManager:1579 - The Die is : DIE431
+2025-04-29 15:32:00,586 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 4306mS.
+2025-04-29 15:32:00,595 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 7mS.
+2025-04-29 15:32:00,599 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-04-29 15:37:07,030 [INFO] MainUpdater:2872 - connection check result : 10
+2025-04-29 15:37:07,477 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-04-29 15:37:07,494 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-04-29 15:37:07,504 [INFO] FinderPluginLoader:95 - Searching for filters in installed packs
+2025-04-29 15:37:10,497 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-04-29 15:37:10,632 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Assar/STM32Cube/Repository/\en.prom-stm32u3-mcu-finder.jpg
+2025-04-29 15:37:16,961 [INFO] MultiScanPanel:200 - Auto-refresh data requested => check proxy status ongoing
+2025-04-29 15:37:17,182 [INFO] LoadUrlFilesThread:185 - End of LoadServerUrlFiles without Thread
+2025-04-29 15:37:17,182 [INFO] DetailPanel:341 - Set advertising image to C:/Users/Assar/STM32Cube/Repository/\en.prom-stm32u3-mcu-finder.jpg
+2025-04-29 15:37:17,208 [INFO] DbBoards:642 - Loading board mini-images...
+2025-04-29 15:37:17,450 [ERROR] DbBoards:659 - Image file not found for board B-WBA5M-WPAN: C:\Users\Assar\.stmcufinder\plugins\mcufinder//mcu//boards_images/B-WBA5M-WPAN.jpg
+2025-04-29 15:37:23,144 [INFO] DbBoards:665 - Loaded 210 board mini-images
+2025-04-29 15:38:14,320 [INFO] MainUpdater:2872 - connection check result : 10
+2025-04-29 15:38:14,320 [INFO] MainUpdater:2872 - connection check result : 10
+2025-04-29 15:38:14,566 [INFO] MicroXplorer:468 - Change Database Path : 
+2025-04-29 15:38:14,573 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.130
+2025-04-29 15:38:14,616 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$9.caretUpdate(ProjectChoiceTab.java:2616) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:408) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4484) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4506) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:857) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1343) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1242) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1223) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1819) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:227) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:781) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:740) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:699) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1725) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:975) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3666) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1934) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:553) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:899) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:789) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:265) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:340) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:250) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1191) ~[com.st.stm32cube.common.mx_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.13.0.202411220809/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.13.0.202411220809/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2025-04-29 15:38:14,631 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2025-04-29 15:38:14,632 [INFO] ThirdParty:873 - entering critical section [close project]
+2025-04-29 15:38:14,632 [INFO] ThirdParty:883 - exiting critical section [close project]
+2025-04-29 15:38:14,634 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-04-29 15:38:14,648 [WARN] IpParametersView:154 - Warning: This peripheral hasn't parameters
+2025-04-29 15:38:14,873 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-04-29 15:38:14,883 [ERROR] MainPanel:599 - java.lang.IndexOutOfBoundsException: Index: 0, Tab count: 0
+2025-04-29 15:38:14,904 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 822111968 Bytes (1073741824)
+2025-04-29 15:38:14,907 [INFO] OpenFileManager:332 - Change cursor
+2025-04-29 15:38:15,155 [INFO] RulesReader:64 - Compatibility file has been processed (297 Rules)
+2025-04-29 15:38:15,187 [INFO] ProjectFactory:442 - No CPN specified for board NUCLEO-L011K4 => set CPN to STM32L011K4T6
+2025-04-29 15:38:15,187 [INFO] Mcu:2035 - Initializing MCU STM32L011K(3-4)Tx STM32L011K4Tx STM32L011K4T6
+2025-04-29 15:38:17,185 [INFO] Context:748 - Trying to add GPIOservice into a context  which must be forbidden
+2025-04-29 15:38:17,555 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2025-04-29 15:38:17,555 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB1 is applicable
+2025-04-29 15:38:17,555 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2025-04-29 15:38:17,555 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB2 is applicable
+2025-04-29 15:38:17,556 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2025-04-29 15:38:17,556 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB3 is applicable
+2025-04-29 15:38:17,556 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2025-04-29 15:38:17,556 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Secured memory - MPCBB4 is applicable
+2025-04-29 15:38:17,556 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB1 is applicable
+2025-04-29 15:38:17,557 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB2 is applicable
+2025-04-29 15:38:17,558 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB3 is applicable
+2025-04-29 15:38:17,558 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Secured memory - MPCBB4 is applicable
+2025-04-29 15:38:17,558 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-04-29 15:38:17,558 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-04-29 15:38:17,559 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-04-29 15:38:17,559 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-04-29 15:38:17,559 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2025-04-29 15:38:17,559 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2025-04-29 15:38:17,559 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2025-04-29 15:38:17,559 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2025-04-29 15:38:17,560 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-04-29 15:38:17,560 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-04-29 15:38:17,560 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-04-29 15:38:17,560 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB1 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB2 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB3 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Not Privileged memory - MPCBB4 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB1 is applicable
+2025-04-29 15:38:17,561 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB2 is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB3 is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule 117617 - U5Cobra4M][GTZC] default value MPCBB3 and MPCBB5 - Privileged memory - MPCBB4 is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule Rename SubGHz_Phy SUBGHZ_APPLICATION SUBGHZ_PINGPONG to SUBGHZ_ADV_APPLICATION is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule Rename Enabled to IBEACON is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for project manager is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for context M33S is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance value for IP GTZC is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for mcu.IP is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for mcu.Pin is applicable
+2025-04-29 15:38:17,562 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for mcu is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for mcu.Pin is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance value for IP GTZC is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for project manager is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for context M33S is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for VP is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule GTZC_S instance for signal is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule SPDIFRX instance for mcu is applicable
+2025-04-29 15:38:17,563 [INFO] Rule:228 - rule Rename Tracer Mode is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule SPDIFRX instance for signal is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule SPDIFRX instance for project manager is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule SPDIFRX instance for project manager is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule ADC Scan  fix with FW F7 is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule ADC Scan  fix with FW F7 is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule DFSDM instance value for IP DFSDM is applicable
+2025-04-29 15:38:17,564 [INFO] Rule:228 - rule DFSDM instance for mcu is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule DFSDM instance for VP is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule DFSDM instance for signal is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule DFSDM instance for shared is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule BreakInputSource parameter for IP Timer is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule Sourcebreak parameter for IP Timer is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule Sourcebreak parameter for IP Timer is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule DFSDM for PCC is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule Serial_Wire Mode is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule JTAG_4_pins Mode is applicable
+2025-04-29 15:38:17,565 [INFO] Rule:228 - rule JTAG_5_pins Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Asynchronous_SW Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Synchro_1bit_JTAG Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Synchro_2bits_JTAG Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Synchro_4bits_JTAG Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Synchro_1bit_SW Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Synchro_2bits_SW Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule Trace_Synchro_4bits_SW Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule SYS_WakeUp0 Mode is applicable
+2025-04-29 15:38:17,566 [INFO] Rule:228 - rule SYS_WakeUp0 Mode for STM32F446 is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp1 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp1 Mode for STM32F446 is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp2 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp3 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp4 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp5 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp6 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule SYS_WakeUp7 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule WakeUp0 Mode is applicable
+2025-04-29 15:38:17,567 [INFO] Rule:228 - rule WakeUp0 SIGNAL is applicable
+2025-04-29 15:38:17,568 [INFO] Rule:228 - rule WakeUp1 Mode is applicable
+2025-04-29 15:38:17,568 [INFO] Rule:228 - rule WakeUp1 SIGNAL is applicable
+2025-04-29 15:38:17,568 [INFO] Rule:228 - rule WakeUp2 Mode is applicable
+2025-04-29 15:38:17,568 [INFO] Rule:228 - rule WakeUp2 SIGNAL is applicable
+2025-04-29 15:38:17,568 [INFO] Rule:228 - rule WakeUp4 Mode is applicable
+2025-04-29 15:38:17,568 [INFO] Rule:228 - rule WakeUp4 SIGNAL is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule WakeUp5 Mode is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule WakeUp5 SIGNAL is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule Mode_PVD_Ext is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule Mode_PVD_Int is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule Add RTC Activate Clock Source is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule Add RTC Activate Calendar 1 is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule Add RTC Activate Calendar 2 is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule Add RTC Activate Calendar 3 is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule UART/USART TX Mode is applicable
+2025-04-29 15:38:17,569 [INFO] Rule:228 - rule UART/USART RX Mode is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART RX TX Mode is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART PARITY NONE is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART PARITY EVEN is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART PARITY ODD is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule USART StopBits 1 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule USART StopBits 2 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule USART StopBits 1.5 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule USART StopBits 0.5 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART WORD LENGTH 7 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART WORD LENGTH 8 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule UART/USART WORD LENGTH 9 is applicable
+2025-04-29 15:38:17,570 [INFO] Rule:228 - rule Rename FMC NAND NCE signal is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Rename FMC NAND INT signal is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for LSE Drive Capability for WB family is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC Clock Prescaler G0 family is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2025-04-29 15:38:17,571 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2025-04-29 15:38:17,572 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2025-04-29 15:38:17,573 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2025-04-29 15:38:17,574 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0  is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule ADC SamplingTime fix with FW L0 is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename USB_OE Signal is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename Activate_OE Mode is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2025-04-29 15:38:17,575 [INFO] Rule:228 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2025-04-29 15:38:17,576 [INFO] Rule:228 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2025-04-29 15:38:17,576 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2025-04-29 15:38:17,576 [INFO] Rule:228 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2025-04-29 15:38:17,576 [INFO] Rule:228 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2025-04-29 15:38:17,577 [INFO] Rule:228 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2025-04-29 15:38:17,578 [INFO] Rule:228 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule TimeTriggeredMode to TTCM is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN AutoBusOff to ABOM is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN AutoRetransmission to NART is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2025-04-29 15:38:17,579 [INFO] Rule:228 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2025-04-29 15:38:17,580 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule USART TxPinLevelInvertParam Mode is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule USART RxPinLevelInvertParam Mode is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule USART DataInvertParam Mode is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule USART SwapParam Mode is applicable
+2025-04-29 15:38:17,581 [INFO] Rule:228 - rule USART OverrunDisableParam Mode is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule USART DMADisableonRxErrorParam Mode is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule USART MSBFirstParam Mode is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule Update MwName for USB_DEVICE is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule TIM1CLockSelection is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule TIM15CLockSelection is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,582 [INFO] Rule:228 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,583 [INFO] Rule:228 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Rename DCMI PIXCK signal is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change Default Value for USART for G4 family is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,584 [INFO] Rule:228 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2025-04-29 15:38:17,585 [INFO] Rule:228 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change Default Value for PLL1UserDefinedConfig is applicable
+2025-04-29 15:38:17,586 [INFO] Rule:228 - rule Change GPIO_PuPd Default Value for USART in async mode is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule Change SMPSDivider Default Value is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule OPAMP is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32H7 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32WB is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32L5 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule LPUART IPParameter rename Prescaler parameter to ClockPrescaler for STM32G4 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule USB device lib V2.5.3 for L0 rename USBD_SUPPORT_USER_STRING parameter to USBD_SUPPORT_USER_STRING_DESC4 is applicable
+2025-04-29 15:38:17,587 [INFO] Rule:228 - rule I2SCLockSelection clock entry align is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Assign TIMx context if used as SYS timebase is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Change GPIO_Pu Default Value for I2C is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Change GPIO_Pu Default Value for SMBus is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule change FDCAN default value is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Change mode sai is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule **Change sai mode is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_IRK to CFG_BLE_IR is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_ERK to CFG_BLE_ER is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_IRK_HEX to CFG_BLE_IR_HEX is applicable
+2025-04-29 15:38:17,588 [INFO] Rule:228 - rule Rename STM32WPAN CFG_BLE_ERK_HEX to CFG_BLE_ER_HEX is applicable
+2025-04-29 15:38:17,612 [INFO] DbConfProperties:307 - Apply Compatibility (75/293 Rules)
+2025-04-29 15:38:17,672 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2025-04-29 15:38:17,914 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2025-04-29 15:38:17,914 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2025-04-29 15:38:17,914 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2025-04-29 15:38:17,914 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2025-04-29 15:38:17,914 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,933 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,934 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,934 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,934 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,934 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,935 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,936 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2025-04-29 15:38:17,937 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2025-04-29 15:38:18,146 [INFO] ThirdPartyModel:298 - Start build external matchings
+2025-04-29 15:38:19,347 [INFO] ThirdPartyModel:316 - End build external matchings
+2025-04-29 15:38:19,382 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2025-04-29 15:38:19,383 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RTCHSEDivFreq_Value) has invalid value (4000000)
+2025-04-29 15:38:19,383 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (PWRFreq_Value)
+2025-04-29 15:38:19,384 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (TIMFreq_Value)
+2025-04-29 15:38:19,586 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 966313728 Bytes (1073741824)
+2025-04-29 15:38:19,975 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2025-04-29 15:38:19,976 [INFO] ThirdParty:835 - entering critical section [change project]
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2025-04-29 15:38:19,976 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 2.0.2
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IotConnect X-CUBE-IoTC-DA16k-PMOD 1.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfMQTT 1.19.2
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.2.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2025-04-29 15:38:19,977 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.2.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.0.2
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 7.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 1.9.3
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2025-04-29 15:38:19,978 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.1.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.7.6
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.24.2
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-FLIGHT1 5.1.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.1.0
+2025-04-29 15:38:19,979 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DPower 1.3.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.0.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.3
+2025-04-29 15:38:19,980 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2025-04-29 15:38:19,981 [INFO] ThirdParty:841 - exiting critical section [change project]
+2025-04-29 15:38:20,228 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2025-04-29 15:38:20,229 [INFO] PinOutPanel:1589 - setPackage(STM32L011K4Tx,LQFP32)
+2025-04-29 15:38:21,579 [INFO] UtilMem:75 - Before build in PCC Used Memory: 831073024 Bytes (1073741824)
+2025-04-29 15:38:22,545 [INFO] UtilMem:75 - After build in PCC Used Memory: 906092064 Bytes (1073741824)
+2025-04-29 15:38:22,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,580 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,581 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,581 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,581 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,581 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,581 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,582 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,582 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,582 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,583 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,584 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,585 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2025-04-29 15:38:22,596 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:38:22,711 [INFO] CADModel:165 - CPN selected for project levelSTM32L011K4T6
+2025-04-29 15:38:22,711 [INFO] CADModel:114 - Register for checkConnection events
+2025-04-29 15:38:22,769 [INFO] OpenFileManager:363 - Restore cursor
+2025-04-29 15:38:22,856 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:38:22,859 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:38:23,667 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 974817616 Bytes (1073741824)
+2025-04-29 15:38:23,824 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 985990352 Bytes (1073741824)
+2025-04-29 15:38:24,548 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-04-29 15:38:24,548 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-04-29 15:38:24,548 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-04-29 15:38:24,548 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-04-29 15:38:24,548 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-04-29 15:38:24,550 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-04-29 15:38:24,608 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:38:24,869 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\MXTmpFiles\license.tmp_save
+2025-04-29 15:38:25,412 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\MXTmpFiles\license.tmp
+2025-04-29 15:38:25,535 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\MXTmpFiles\gpio.tmp_save
+2025-04-29 15:38:25,865 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\MXTmpFiles\gpio.tmp
+2025-04-29 15:38:26,066 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Src\stm32l0xx_it.c_save
+2025-04-29 15:38:26,666 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Src\stm32l0xx_it.c
+2025-04-29 15:38:26,695 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Inc\stm32l0xx_it.h_save
+2025-04-29 15:38:26,920 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Inc\stm32l0xx_it.h
+2025-04-29 15:38:26,952 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Src\stm32l0xx_hal_msp.c_save
+2025-04-29 15:38:27,362 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Src\stm32l0xx_hal_msp.c
+2025-04-29 15:38:27,386 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\MXTmpFiles\system.tmp_save
+2025-04-29 15:38:27,550 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\MXTmpFiles\system.tmp
+2025-04-29 15:38:27,601 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Inc\stm32l0xx_hal_conf.h_save
+2025-04-29 15:38:27,884 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Inc\stm32l0xx_hal_conf.h
+2025-04-29 15:38:27,951 [INFO] ApiDbMcu:508 - Load IP Config File for USART2
+2025-04-29 15:38:27,956 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-04-29 15:38:27,970 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Inc\main.h_save
+2025-04-29 15:38:28,281 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Inc\main.h
+2025-04-29 15:38:28,300 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Src\main.c_save
+2025-04-29 15:38:28,563 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\nucleo\e_ink_SPI_L011K4\Core\Src\main.c
+2025-04-29 15:38:29,551 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 500mS.
+2025-04-29 15:38:29,567 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-04-29 15:38:29,771 [INFO] ConfigFileManager:1579 - The Die is : DIE457
+2025-04-29 15:38:29,821 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2025-04-29 15:38:29,848 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2025-04-29 15:38:36,896 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 7329mS.
+2025-04-29 15:38:36,898 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 15:38:36,902 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-04-29 15:38:39,006 [INFO] McuFinderGlobals:76 - Set McuFinderConnectedMode to true
+2025-04-29 15:38:39,014 [INFO] ApiDb:448 - Save user favorites file C:\Users\Assar/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2025-04-29 15:38:39,014 [INFO] ApiDb:452 - User favorites MCUs=[]
+2025-04-29 15:38:39,017 [INFO] ApiDb:448 - Save user favorites file C:\Users\Assar/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2025-04-29 15:38:39,017 [INFO] ApiDb:452 - User favorites Boards=[]
+2025-04-29 15:39:49,294 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:39:49,298 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:39:49,396 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
+2025-04-29 15:39:49,443 [WARN] IP:2251 - AutoBaudRateEnableParam not found: check if there is a RefParameter without a condition.
