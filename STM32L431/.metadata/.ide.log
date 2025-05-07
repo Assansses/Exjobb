@@ -1,0 +1,36 @@
+2025-05-07 09:20:57,991 [INFO] WebApp:190 - Connection lost
+2025-05-07 09:21:09,589 [INFO] WebApp:187 - Connection restablished
+2025-05-07 09:37:48,718 [INFO] Gpio:277 - dependency for GPIO [I2C1]
+2025-05-07 09:39:43,223 [INFO] Gpio:277 - dependency for GPIO [I2C1]
+2025-05-07 09:40:00,097 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 704621584 Bytes (1073741824)
+2025-05-07 09:40:33,906 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 864055296 Bytes (1073741824)
+2025-05-07 09:40:35,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-05-07 09:40:35,052 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-05-07 09:40:35,053 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-05-07 09:40:35,053 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-05-07 09:40:35,053 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-05-07 09:40:35,055 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-05-07 09:40:35,438 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\MXTmpFiles\license.tmp_save
+2025-05-07 09:40:36,142 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\MXTmpFiles\license.tmp
+2025-05-07 09:40:36,326 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\MXTmpFiles\gpio.tmp_save
+2025-05-07 09:40:36,766 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\MXTmpFiles\gpio.tmp
+2025-05-07 09:40:37,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Src\stm32l4xx_it.c_save
+2025-05-07 09:40:37,899 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Src\stm32l4xx_it.c
+2025-05-07 09:40:37,944 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Inc\stm32l4xx_it.h_save
+2025-05-07 09:40:38,130 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Inc\stm32l4xx_it.h
+2025-05-07 09:40:38,206 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Src\stm32l4xx_hal_msp.c_save
+2025-05-07 09:40:38,516 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Src\stm32l4xx_hal_msp.c
+2025-05-07 09:40:38,549 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\MXTmpFiles\system.tmp_save
+2025-05-07 09:40:38,684 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\MXTmpFiles\system.tmp
+2025-05-07 09:40:38,761 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Inc\stm32l4xx_hal_conf.h_save
+2025-05-07 09:40:38,987 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Inc\stm32l4xx_hal_conf.h
+2025-05-07 09:40:39,159 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Inc\main.h_save
+2025-05-07 09:40:39,465 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Inc\main.h
+2025-05-07 09:40:39,516 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Src\main.c_save
+2025-05-07 09:40:39,774 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\I2C-com\Core\Src\main.c
+2025-05-07 09:40:40,534 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 410mS.
+2025-05-07 09:40:40,542 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-05-07 09:40:40,740 [INFO] ConfigFileManager:1579 - The Die is : DIE435
+2025-05-07 09:40:44,393 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 3849mS.
+2025-05-07 09:40:44,395 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-05-07 09:40:44,399 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
