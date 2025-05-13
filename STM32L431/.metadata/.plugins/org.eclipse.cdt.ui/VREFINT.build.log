@@ -1,0 +1,10 @@
+16:19:48 **** Incremental Build of configuration Debug for project VREFINT ****
+make -j4 all 
+arm-none-eabi-size  VREFINT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12472	     12	   1684	  14168	   3758	VREFINT.elf
+Finished building: default.size.stdout
+ 
+
+16:19:49 Build Finished. 0 errors, 0 warnings. (took 566ms)
+

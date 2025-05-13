@@ -1,2 +1,8 @@
 count
 status
+rx_buffer
+VREFINT_CAL
+adc_val
+voltage
+VREFINT_CAL1
+VREFINT_CAL2

@@ -102,13 +102,7 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
-  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
-  //status = HAL_I2C_Master_Transmit(&hi2c1, NTP_ADDRESS, tx_buffer, 6, 5); //HAL_MAX_DELAY
-  //HAL_Delay(2);// Mer än 1. Oklart varför
 
-   //HAL_I2C_Master_Transmit(&hi2c1, NTP_ADDRESS, rx_address, 2, 2);
-
-   //HAL_I2C_Master_Receive(&hi2c1, NTP_ADDRESS, rx_buffer, 4, 1);
 
   /* USER CODE END 2 */
 
@@ -119,15 +113,14 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  //status = HAL_I2C_Master_Transmit(&hi2c1, NTP_ADDRESS, tx_buffer, 6, HAL_MAX_DELAY); //HAL_MAX_DELAY
-
-	   //HAL_Delay(2000);// Mer än 1. Oklart varför
-
-	     //HAL_I2C_Master_Transmit(&hi2c1, NTP_ADDRESS, rx_address, 2, 2);
-
-	     //HAL_I2C_Master_Receive(&hi2c1, NTP_ADDRESS, rx_buffer, 4, 1);
-	  NTP_Write_eeprom(0x00, 0x02, 0x00, 0x11, 0x22, 0x33);
+	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
+	  HAL_Delay(20);
+	  NTP_Write_eeprom(0x00, 0x02, 0x11, 0x11, 0x11, 0x11);
+	  HAL_Delay(20);
 	  NTP_Read_eeprom(0x00, 0x02, rx_buffer);
+	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
+	  HAL_Delay(50);
+
 
 
   }
