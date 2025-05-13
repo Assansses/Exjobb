@@ -102,7 +102,17 @@ int main(void)
   MX_I2C1_Init();
   /* USER CODE BEGIN 2 */
 
+  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
+  HAL_Delay(20);
+  NTP_Write_eeprom(0x00, 0x02, 0b00001101,0x00,0x01,0x00);
+  HAL_Delay(20);
+  NTP_Read_eeprom(0x00, 0x02, rx_buffer);
+  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
+  HAL_Delay(50);
 
+  ///HAL_SuspendTick();
+  ///HAL_PWREx_EnterSTOP2Mode(PWR_SLEEPENTRY_WFI);
+  ///HAL_ResumeTick();
 
   /* USER CODE END 2 */
 
@@ -113,13 +123,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
-	  HAL_Delay(20);
-	  NTP_Write_eeprom(0x00, 0x02, 0x11, 0x11, 0x11, 0x11);
-	  HAL_Delay(20);
-	  NTP_Read_eeprom(0x00, 0x02, rx_buffer);
-	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
-	  HAL_Delay(50);
+
 
 
 
