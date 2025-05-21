@@ -371,10 +371,12 @@ void SystemClock_Config(void)
     Error_Handler();
  8000370:	f000 f8e4 	bl	800053c <Error_Handler>
   }
+  /* USER CODE BEGIN SystemClock_Config 0 */
   SCB->VTOR = FLASH_BASE | 0x00000000U;
  8000374:	4b03      	ldr	r3, [pc, #12]	@ (8000384 <SystemClock_Config+0x94>)
  8000376:	f04f 6200 	mov.w	r2, #134217728	@ 0x8000000
  800037a:	609a      	str	r2, [r3, #8]
+  /* USER CODE END SystemClock_Config 0 */
 }
  800037c:	bf00      	nop
  800037e:	3758      	adds	r7, #88	@ 0x58
@@ -556,8 +558,8 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pin = ED_Pin;
  8000480:	f44f 5300 	mov.w	r3, #8192	@ 0x2000
  8000484:	60fb      	str	r3, [r7, #12]
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
- 8000486:	f44f 1388 	mov.w	r3, #1114112	@ 0x110000
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+ 8000486:	f44f 1304 	mov.w	r3, #2162688	@ 0x210000
  800048a:	613b      	str	r3, [r7, #16]
   GPIO_InitStruct.Pull = GPIO_NOPULL;
  800048c:	2300      	movs	r3, #0

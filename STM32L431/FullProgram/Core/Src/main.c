@@ -55,13 +55,18 @@ uint8_t rx_address[2] = {0x00, 0x02};
 uint8_t rx_buffer[4];
 
 //ADC
-uint32_t adc_val = 0;
+uint32_t adc_val = 10;
 uint32_t voltage = 0;
 //uint16_t* VREFINT_CAL_ADDR = 0x1FFF75AA;
 //uint16_t VREFINT_CAL = *((uint16_t*)VREFINT_CAL_ADDR); //Data sheet page 39
 
 //MISC
 uint8_t count1 = 0;
+
+uint8_t b3 = 0x00;
+uint8_t b2 = 0x00;
+uint8_t b1 = 0x00;
+uint8_t b0 = 0x01;
 
 
 /* USER CODE END PV */
@@ -107,7 +112,7 @@ int main(void)
   SystemClock_Config();
 
   /* USER CODE BEGIN SysInit */
-
+  SCB->VTOR = FLASH_BASE | 0x00000000U;
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
@@ -115,16 +120,19 @@ int main(void)
   MX_I2C1_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
-
+  HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, 1);
   // INITIALIZE NTP5332
+  HAL_Delay(50);
   HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
-  NTP_Write_eeprom(0x10, 0x3D, 0b00001101,0x00,0x01,0x00);
+  NTP_Write_eeprom(0x10, 0x3D, 0b00000101,0x00,0x01,0x00);
   HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
+  HAL_Delay(50);
 
-  //
+  //ADC
   uint16_t VREFINT_CAL = *((uint16_t*)VREFINT_CAL_ADDR); //Data sheet page 39
 
 
+  HAL_GPIO_WritePin(LED_R_GPIO_Port, LED_R_Pin, 0);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -135,10 +143,16 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
-	  //READ CAPACITOR VOLTAGE
-	  (void)HAL_ADC_Start(&hadc1);
+	  HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, 1);
 
-	  if (HAL_ADC_PollForConversion(&hadc1, 100) == HAL_OK){
+
+	  //READ CAPACITOR VOLTAGE
+	  HAL_GPIO_WritePin(A_en_GPIO_Port, A_en_Pin, 1);
+	  HAL_Delay(50);
+
+	  HAL_ADC_Start(&hadc1);
+
+	  if (HAL_ADC_PollForConversion(&hadc1, 2000) == HAL_OK){
 
 		  adc_val = HAL_ADC_GetValue(&hadc1);
 
@@ -152,18 +166,35 @@ int main(void)
 		  voltage = 0;
 	  }
 
+	  HAL_ADC_Stop(&hadc1);
+	  //HAL_Delay(500);
+	  HAL_GPIO_WritePin(A_en_GPIO_Port, A_en_Pin, 0);
+
+
 
 	  //WRITE VOLTAGE TO CHIP
+	  //Prepare data
+	  b3 = (uint8_t)(voltage>>24);
+	  b2 = (uint8_t)(voltage>>16);
+	  b1 = (uint8_t)(voltage>>8);
+	  b0 = (uint8_t)(voltage>>0);
+
+	  //Send data
 	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
-	  NTP_Write_eeprom(0x00, count1, 0b00001101,0x00,0x01,0x00);
-	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
+	  NTP_Write_eeprom(0x00, count1, 0x00,count1,b1,b0);
+	  //HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
 
 	  ++count1;
+
+	  HAL_GPIO_WritePin(LED_G_GPIO_Port, LED_G_Pin, 0);
 
 	  //ENTER STOPMODE
 	  HAL_SuspendTick();
 	  HAL_PWREx_EnterSTOP2Mode(PWR_SLEEPENTRY_WFI);
 	  HAL_ResumeTick();
+
+	  HAL_ADC_MspInit(&hadc1);
+	  //__HAL_RCC_ADC_CLK_ENABLE();
   }
   /* USER CODE END 3 */
 }
@@ -233,7 +264,7 @@ static void MX_ADC1_Init(void)
   /** Common config
   */
   hadc1.Instance = ADC1;
-  hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV1;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV8;
   hadc1.Init.Resolution = ADC_RESOLUTION_12B;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
   hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
@@ -342,7 +373,7 @@ static void MX_GPIO_Init(void)
 
   /*Configure GPIO pin : ED_Pin */
   GPIO_InitStruct.Pin = ED_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_IT_RISING;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(ED_GPIO_Port, &GPIO_InitStruct);
 
@@ -359,6 +390,10 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(NFC_Vcc_GPIO_Port, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
@@ -384,6 +419,9 @@ void NTP_Read_eeprom(uint8_t BL_AD1, uint8_t BL_AD0, uint8_t* target){
 }
 
 
+void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin) {
+
+}
 
 /* USER CODE END 4 */
 
