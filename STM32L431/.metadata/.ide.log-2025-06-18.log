@@ -1,0 +1,119 @@
+2025-06-18 12:30:33,730 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.ClassCastException: class sun.awt.windows.WEmbeddedFrame cannot be cast to class javax.swing.JFrame (sun.awt.windows.WEmbeddedFrame and javax.swing.JFrame are in module java.desktop of loader 'bootstrap')
+2025-06-18 12:30:33,776 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.clock.ClockConfigurationView.activatePlugin(ClockConfigurationView.java:425)
+2025-06-18 12:30:33,779 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.maingui.MainPanel$1.stateChanged(MainPanel.java:382)
+2025-06-18 12:30:33,788 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.fireStateChanged(JTabbedPane.java:446)
+2025-06-18 12:30:33,794 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane$ModelListener.stateChanged(JTabbedPane.java:297)
+2025-06-18 12:30:33,798 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.fireStateChanged(DefaultSingleSelectionModel.java:148)
+2025-06-18 12:30:33,809 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultSingleSelectionModel.setSelectedIndex(DefaultSingleSelectionModel.java:79)
+2025-06-18 12:30:33,811 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndexImpl(JTabbedPane.java:650)
+2025-06-18 12:30:33,814 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JTabbedPane.setSelectedIndex(JTabbedPane.java:625)
+2025-06-18 12:30:33,821 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicTabbedPaneUI$Handler.mousePressed(BasicTabbedPaneUI.java:4140)
+2025-06-18 12:30:33,825 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6618)
+2025-06-18 12:30:33,827 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+2025-06-18 12:30:33,829 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+2025-06-18 12:30:33,832 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2025-06-18 12:30:33,839 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2025-06-18 12:30:33,842 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2025-06-18 12:30:33,844 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2025-06-18 12:30:33,845 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2025-06-18 12:30:33,849 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4572)
+2025-06-18 12:30:33,850 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2025-06-18 12:30:33,851 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2025-06-18 12:30:33,853 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2025-06-18 12:30:33,854 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2025-06-18 12:30:33,856 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2025-06-18 12:30:33,858 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2025-06-18 12:30:33,860 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2025-06-18 12:30:33,862 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2025-06-18 12:30:33,865 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2025-06-18 12:30:33,867 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2025-06-18 12:30:33,868 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2025-06-18 12:30:33,869 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2025-06-18 12:30:33,871 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2025-06-18 12:30:33,872 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2025-06-18 12:30:33,874 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2025-06-18 12:30:33,875 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2025-06-18 12:30:33,877 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2025-06-18 12:30:33,879 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2025-06-18 12:30:33,882 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2025-06-18 12:30:33,884 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2025-06-18 12:30:37,270 [INFO] I2cTimingTraitement:330 - 0x00100D14
+2025-06-18 12:30:37,418 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,422 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,422 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,423 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,423 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,423 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,423 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,423 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,423 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,425 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,425 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,425 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,425 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,426 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,477 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,583 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,588 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,588 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,588 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,589 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,589 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,589 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,589 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,589 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,590 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:37,641 [INFO] ADCParametersView:116 -                Rank 1 : false
+2025-06-18 12:30:41,040 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 827178512 Bytes (1073741824)
+2025-06-18 12:30:42,494 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 924635776 Bytes (1073741824)
+2025-06-18 12:30:43,415 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-18 12:30:43,416 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-18 12:30:43,416 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-18 12:30:43,416 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: ADC
+2025-06-18 12:30:43,417 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-18 12:30:43,417 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: I2C
+2025-06-18 12:30:43,419 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-18 12:30:43,740 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\MXTmpFiles\license.tmp_save
+2025-06-18 12:30:44,430 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\MXTmpFiles\license.tmp
+2025-06-18 12:30:44,700 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\MXTmpFiles\gpio.tmp_save
+2025-06-18 12:30:45,189 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\MXTmpFiles\gpio.tmp
+2025-06-18 12:30:46,041 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Src\stm32l4xx_it.c_save
+2025-06-18 12:30:46,792 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Src\stm32l4xx_it.c
+2025-06-18 12:30:46,823 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Inc\stm32l4xx_it.h_save
+2025-06-18 12:30:47,079 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Inc\stm32l4xx_it.h
+2025-06-18 12:30:47,155 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Src\stm32l4xx_hal_msp.c_save
+2025-06-18 12:30:47,582 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Src\stm32l4xx_hal_msp.c
+2025-06-18 12:30:47,615 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\MXTmpFiles\system.tmp_save
+2025-06-18 12:30:47,809 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\MXTmpFiles\system.tmp
+2025-06-18 12:30:47,875 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Inc\stm32l4xx_hal_conf.h_save
+2025-06-18 12:30:48,141 [INFO] CodeEngine:335 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Inc\stm32l4xx_hal_conf.h
+2025-06-18 12:30:48,246 [INFO] ApiDbMcu:508 - Load IP Config File for ADC1
+2025-06-18 12:30:48,305 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Inc\main.h_save
+2025-06-18 12:30:48,600 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Inc\main.h
+2025-06-18 12:30:48,659 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Src\main.c_save
+2025-06-18 12:30:49,031 [INFO] CodeEngine:279 - Generated code: C:\Users\Assar\Documents\GitHub\Exjobb\STM32L431\Prototyp2\Core\Src\main.c
+2025-06-18 12:30:50,163 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 592mS.
+2025-06-18 12:30:50,210 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-18 12:30:50,454 [INFO] ConfigFileManager:1579 - The Die is : DIE435
+2025-06-18 12:30:53,441 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 3231mS.
+2025-06-18 12:30:53,444 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-18 12:30:53,448 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-18 17:20:39,855 [INFO] WebApp:190 - Connection lost
+2025-06-18 17:20:40,025 [INFO] WebApp:187 - Connection restablished
+2025-06-18 20:36:05,190 [INFO] WebApp:389 - JxBrowser engine has been closed 
+2025-06-18 20:36:06,211 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-06-18 20:36:06,213 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

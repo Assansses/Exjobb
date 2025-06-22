@@ -173,15 +173,15 @@ int main(void)
 	   HAL_Delay(20);
  8000256:	2014      	movs	r0, #20
  8000258:	f000 faa2 	bl	80007a0 <HAL_Delay>
-	   NTP_Write_eeprom(0x10, 0x3D, 0b00001101,0x00,0x01,0x00);
- 800025c:	2300      	movs	r3, #0
+	   NTP_Write_eeprom(0x00, 0x02, 0b00001101,0xAA,0x01,0xBB);
+ 800025c:	23bb      	movs	r3, #187	@ 0xbb
  800025e:	9301      	str	r3, [sp, #4]
  8000260:	2301      	movs	r3, #1
  8000262:	9300      	str	r3, [sp, #0]
- 8000264:	2300      	movs	r3, #0
+ 8000264:	23aa      	movs	r3, #170	@ 0xaa
  8000266:	220d      	movs	r2, #13
- 8000268:	213d      	movs	r1, #61	@ 0x3d
- 800026a:	2010      	movs	r0, #16
+ 8000268:	2102      	movs	r1, #2
+ 800026a:	2000      	movs	r0, #0
  800026c:	f000 f8d6 	bl	800041c <NTP_Write_eeprom>
 	   HAL_Delay(20);
  8000270:	2014      	movs	r0, #20

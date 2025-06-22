@@ -1,0 +1,5 @@
+2025-05-22 15:58:44,303 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-05-22 15:58:50,595 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 8243mS.
+2025-05-22 15:58:50,596 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-05-22 15:58:50,602 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-05-22 16:29:48,764 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 

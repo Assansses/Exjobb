@@ -1,4 +1,4 @@
-12:52:29 **** Incremental Build of configuration Debug for project FullProgram ****
+13:31:31 **** Incremental Build of configuration Debug for project FullProgram ****
 make -j4 all 
 arm-none-eabi-size  FullProgram.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  FullProgram.elf
 Finished building: default.size.stdout
  
 
-12:52:29 Build Finished. 0 errors, 0 warnings. (took 468ms)
+13:31:32 Build Finished. 0 errors, 0 warnings. (took 510ms)
 

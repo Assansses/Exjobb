@@ -1,0 +1,562 @@
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+#define NTP_ADDRESS  0xA8
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+ADC_HandleTypeDef hadc1;
+
+I2C_HandleTypeDef hi2c1;
+
+/* USER CODE BEGIN PV */
+
+//I2C
+uint8_t tx_buffer[6] = {0x00, 0x02, 0xBA, 0xDB, 0x01, 0xBB};
+uint8_t rx_address[2] = {0x00, 0x02};
+uint8_t rx_buffer[4];
+
+uint8_t text[11][4] = {
+		{0x6E, 0x54, 0x68, 0x65},
+		{0x20, 0x76, 0x6F, 0x6C},
+		{0x74, 0x61, 0x67, 0x65},
+		{0X20, 0x6F, 0x66, 0x20},
+		{0X74, 0x68, 0x65, 0x20},
+		{0x73, 0x75, 0x70, 0x65},
+		{0x72, 0x63, 0x61, 0x70},
+		{0x61, 0x63, 0x69, 0x74},
+		{0x6F, 0x72, 0x20, 0x69},
+		{0x73, 0x20, 0x31, 0x2E},
+		{0x32, 0x33, 0x20, 0x56}//,{0xFE, 0x00, 0x00, 0x00}
+};
+
+//ADC
+uint32_t adc_val = 10;
+uint32_t voltage = 0;
+//uint16_t* VREFINT_CAL_ADDR = 0x1FFF75AA;
+//uint16_t VREFINT_CAL = *((uint16_t*)VREFINT_CAL_ADDR); //Data sheet page 39
+
+//MISC
+uint8_t count1 = 0;
+
+uint8_t b3 = 0x00;
+uint8_t b2 = 0x00;
+uint8_t b1 = 0x00;
+uint8_t b0 = 0x01;
+
+
+
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+static void MX_I2C1_Init(void);
+static void MX_ADC1_Init(void);
+/* USER CODE BEGIN PFP */
+
+void NTP_Write_eeprom(uint8_t BL_AD1, uint8_t BL_AD0, uint8_t DATA0, uint8_t DATA1, uint8_t DATA2, uint8_t DATA3);
+void NTP_Read_eeprom(uint8_t BL_AD1, uint8_t BL_AD0, uint8_t* target);
+
+void RampUp(void);
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+
+  /* USER CODE BEGIN 1 */
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_I2C1_Init();
+  MX_ADC1_Init();
+  /* USER CODE BEGIN 2 */
+
+
+   // INITIALIZE NTP5332
+   HAL_Delay(50);
+   HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
+   NTP_Write_eeprom(0x10, 0x3D, 0b00000101,0x00,0x01,0x00);
+   HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
+   HAL_Delay(50);
+
+   //ADC
+   uint16_t VREFINT_CAL = *((uint16_t*)VREFINT_CAL_ADDR); //Data sheet page 39
+
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+   while (1)
+   {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+
+
+
+
+ 	  //READ CAPACITOR VOLTAGE
+ 	  HAL_GPIO_WritePin(A_en_GPIO_Port, A_en_Pin, 1);
+ 	  HAL_Delay(50);
+
+ 	  HAL_ADC_Start(&hadc1);
+
+ 	  if (HAL_ADC_PollForConversion(&hadc1, 2000) == HAL_OK){
+
+ 		  adc_val = HAL_ADC_GetValue(&hadc1);
+
+ 		  if (adc_val > 0) {
+ 			  voltage = VREFINT_CAL * 3000/adc_val; //Reference sheet page 453
+
+ 		  } else {
+ 			  voltage = 0;
+ 		  }
+ 	  } else {
+ 		  voltage = 0;
+ 	  }
+
+ 	  HAL_ADC_Stop(&hadc1);
+ 	  //HAL_Delay(500);
+ 	  HAL_GPIO_WritePin(A_en_GPIO_Port, A_en_Pin, 0);
+
+
+
+ 	  //SHOW VOLTAGE ON INDICATORS
+ 	if (voltage > 2700) {
+ 		HAL_GPIO_WritePin(D9_GPIO_Port, D9_Pin, 1);
+ 	} else if (voltage > 2600) {
+ 		HAL_GPIO_WritePin(D8_GPIO_Port, D8_Pin, 1);
+ 	} else if (voltage > 2500) {
+ 		HAL_GPIO_WritePin(D7_GPIO_Port, D7_Pin, 1);
+ 	} else if (voltage > 2400) {
+ 		HAL_GPIO_WritePin(D6_GPIO_Port, D6_Pin, 1);
+ 	} else if (voltage > 2300) {
+ 		HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, 1);
+ 	} else if (voltage > 2200) {
+ 		HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, 1);
+ 	} else if (voltage > 2100) {
+ 		HAL_GPIO_WritePin(D3_GPIO_Port, D3_Pin, 1);
+ 	} else if (voltage > 2000) {
+ 		HAL_GPIO_WritePin(D2_GPIO_Port, D2_Pin, 1);
+ 	} else if (voltage > 1900) {
+ 		HAL_GPIO_WritePin(D1_GPIO_Port, D1_Pin, 1);
+ 	} else if (voltage > 1800) {
+ 		HAL_GPIO_WritePin(D0_GPIO_Port, D0_Pin, 1);
+ 	}
+
+
+
+
+ 	  //WRITE VOLTAGE TO CHIP
+ 	  //Prepare data
+ 	  b3 = (uint8_t)((voltage/1000) % 10); //(uint8_t)(voltage>>24);
+ 	  b2 = (uint8_t)((voltage/100) % 10); //(uint8_t)(voltage>>16);
+ 	  b1 = (uint8_t)((voltage/10) % 10); //(uint8_t)(voltage>>8);
+ 	  b0 = (uint8_t)(voltage % 10); //(uint8_t)(voltage>>0);
+
+ 	  //Send data
+
+
+ 	 HAL_Delay(50);
+
+ 	 // for (uint8_t i = 0; i<=11; ++i){
+ 	//	 NTP_Write_eeprom(0x00, i+3, text[i][0], text[i][1], text[i][2], text[i][3]);
+ 	//	 HAL_Delay(50);
+ 	 // }
+
+ 	HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
+ 	  HAL_Delay(50);
+ 	  NTP_Write_eeprom(0x00, 0x0C, 0x73, 0x20, b3|0x30, 0x2E);
+ 	  HAL_Delay(50); //Delay necessary
+ 	  NTP_Write_eeprom(0x00, 0x0D, b2|0x30, b1|0x30, 0x20, 0x56);
+
+
+
+ 	  HAL_Delay(1000);
+
+
+
+
+
+ 	//Turn off indicators
+	HAL_GPIO_WritePin(D9_GPIO_Port, D9_Pin, 0);
+	HAL_GPIO_WritePin(D8_GPIO_Port, D8_Pin, 0);
+	HAL_GPIO_WritePin(D7_GPIO_Port, D7_Pin, 0);
+	HAL_GPIO_WritePin(D6_GPIO_Port, D6_Pin, 0);
+	HAL_GPIO_WritePin(D5_GPIO_Port, D5_Pin, 0);
+	HAL_GPIO_WritePin(D4_GPIO_Port, D4_Pin, 0);
+	HAL_GPIO_WritePin(D3_GPIO_Port, D3_Pin, 0);
+	HAL_GPIO_WritePin(D2_GPIO_Port, D2_Pin, 0);
+	HAL_GPIO_WritePin(D1_GPIO_Port, D1_Pin, 0);
+	HAL_GPIO_WritePin(D0_GPIO_Port, D0_Pin, 0);
+
+
+
+ 	  //ENTER STOPMODE
+	HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);
+ 	HAL_SuspendTick();
+	HAL_PWREx_EnterSTOP2Mode(PWR_SLEEPENTRY_WFI);
+ 	HAL_ResumeTick();
+
+ 	HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
+ 	HAL_ADC_MspInit(&hadc1);
+    }
+
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Configure the main internal regulator output voltage
+  */
+  if (HAL_PWREx_ControlVoltageScaling(PWR_REGULATOR_VOLTAGE_SCALE1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_MSI;
+  RCC_OscInitStruct.MSIState = RCC_MSI_ON;
+  RCC_OscInitStruct.MSICalibrationValue = 0;
+  RCC_OscInitStruct.MSIClockRange = RCC_MSIRANGE_6;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_NONE;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1|RCC_CLOCKTYPE_PCLK2;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_MSI;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+  RCC_ClkInitStruct.APB2CLKDivider = RCC_HCLK_DIV1;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief ADC1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_ADC1_Init(void)
+{
+
+  /* USER CODE BEGIN ADC1_Init 0 */
+
+  /* USER CODE END ADC1_Init 0 */
+
+  ADC_ChannelConfTypeDef sConfig = {0};
+
+  /* USER CODE BEGIN ADC1_Init 1 */
+
+  /* USER CODE END ADC1_Init 1 */
+
+  /** Common config
+  */
+  hadc1.Instance = ADC1;
+  hadc1.Init.ClockPrescaler = ADC_CLOCK_ASYNC_DIV2;
+  hadc1.Init.Resolution = ADC_RESOLUTION_12B;
+  hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
+  hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
+  hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
+  hadc1.Init.LowPowerAutoWait = DISABLE;
+  hadc1.Init.ContinuousConvMode = DISABLE;
+  hadc1.Init.NbrOfConversion = 1;
+  hadc1.Init.DiscontinuousConvMode = DISABLE;
+  hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
+  hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
+  hadc1.Init.DMAContinuousRequests = DISABLE;
+  hadc1.Init.Overrun = ADC_OVR_DATA_PRESERVED;
+  hadc1.Init.OversamplingMode = DISABLE;
+  if (HAL_ADC_Init(&hadc1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Regular Channel
+  */
+  sConfig.Channel = ADC_CHANNEL_VREFINT;
+  sConfig.Rank = ADC_REGULAR_RANK_1;
+  sConfig.SamplingTime = ADC_SAMPLETIME_2CYCLES_5;
+  sConfig.SingleDiff = ADC_SINGLE_ENDED;
+  sConfig.OffsetNumber = ADC_OFFSET_NONE;
+  sConfig.Offset = 0;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN ADC1_Init 2 */
+
+  /* USER CODE END ADC1_Init 2 */
+
+}
+
+/**
+  * @brief I2C1 Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_I2C1_Init(void)
+{
+
+  /* USER CODE BEGIN I2C1_Init 0 */
+
+  /* USER CODE END I2C1_Init 0 */
+
+  /* USER CODE BEGIN I2C1_Init 1 */
+
+  /* USER CODE END I2C1_Init 1 */
+  hi2c1.Instance = I2C1;
+  hi2c1.Init.Timing = 0x00100D14;
+  hi2c1.Init.OwnAddress1 = 0;
+  hi2c1.Init.AddressingMode = I2C_ADDRESSINGMODE_7BIT;
+  hi2c1.Init.DualAddressMode = I2C_DUALADDRESS_DISABLE;
+  hi2c1.Init.OwnAddress2 = 0;
+  hi2c1.Init.OwnAddress2Masks = I2C_OA2_NOMASK;
+  hi2c1.Init.GeneralCallMode = I2C_GENERALCALL_DISABLE;
+  hi2c1.Init.NoStretchMode = I2C_NOSTRETCH_DISABLE;
+  if (HAL_I2C_Init(&hi2c1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Analogue filter
+  */
+  if (HAL_I2CEx_ConfigAnalogFilter(&hi2c1, I2C_ANALOGFILTER_ENABLE) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure Digital filter
+  */
+  if (HAL_I2CEx_ConfigDigitalFilter(&hi2c1, 0) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN I2C1_Init 2 */
+
+  /* USER CODE END I2C1_Init 2 */
+
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+/* USER CODE BEGIN MX_GPIO_Init_1 */
+/* USER CODE END MX_GPIO_Init_1 */
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOA, A_en_Pin|D9_Pin|HPD_Pin|NFC_Vcc_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOB, D8_Pin|D7_Pin|D6_Pin|D5_Pin
+                          |D4_Pin|D3_Pin|D2_Pin|D1_Pin
+                          |D0_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : ED_Pin */
+  GPIO_InitStruct.Pin = ED_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_IT_FALLING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(ED_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : A_en_Pin D9_Pin HPD_Pin NFC_Vcc_Pin */
+  GPIO_InitStruct.Pin = A_en_Pin|D9_Pin|HPD_Pin|NFC_Vcc_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : D8_Pin D7_Pin D6_Pin D5_Pin
+                           D4_Pin D3_Pin D2_Pin D1_Pin
+                           D0_Pin */
+  GPIO_InitStruct.Pin = D8_Pin|D7_Pin|D6_Pin|D5_Pin
+                          |D4_Pin|D3_Pin|D2_Pin|D1_Pin
+                          |D0_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI15_10_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(EXTI15_10_IRQn);
+
+/* USER CODE BEGIN MX_GPIO_Init_2 */
+/* USER CODE END MX_GPIO_Init_2 */
+}
+
+/* USER CODE BEGIN 4 */
+
+void NTP_Write_eeprom(uint8_t BL_AD1, uint8_t BL_AD0, uint8_t DATA0, uint8_t DATA1, uint8_t DATA2, uint8_t DATA3){
+
+	uint8_t tx_buff[6] = {BL_AD1, BL_AD0, DATA0, DATA1, DATA2, DATA3};
+
+	HAL_I2C_Master_Transmit(&hi2c1, NTP_ADDRESS, tx_buff, 6, 2);
+
+}
+
+void NTP_Read_eeprom(uint8_t BL_AD1, uint8_t BL_AD0, uint8_t* target){
+
+	uint8_t rx_add[2] = {BL_AD1, BL_AD0};
+
+	HAL_I2C_Master_Transmit(&hi2c1, NTP_ADDRESS, rx_add, 2, 2);
+	HAL_I2C_Master_Receive(&hi2c1, NTP_ADDRESS, target, 4, 1);
+}
+
+void RampUp(void) {
+		HAL_GPIO_TogglePin(D0_GPIO_Port, D0_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D0_GPIO_Port, D0_Pin);
+	  	HAL_GPIO_TogglePin(D1_GPIO_Port, D1_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D1_GPIO_Port, D1_Pin);
+	  	HAL_GPIO_TogglePin(D2_GPIO_Port, D2_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D2_GPIO_Port, D2_Pin);
+	  	HAL_GPIO_TogglePin(D3_GPIO_Port, D3_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D3_GPIO_Port, D3_Pin);
+	  	HAL_GPIO_TogglePin(D4_GPIO_Port, D4_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D4_GPIO_Port, D4_Pin);
+	  	HAL_GPIO_TogglePin(D5_GPIO_Port, D5_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D5_GPIO_Port, D5_Pin);
+	  	HAL_GPIO_TogglePin(D6_GPIO_Port, D6_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D6_GPIO_Port, D6_Pin);
+	  	HAL_GPIO_TogglePin(D7_GPIO_Port, D7_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D7_GPIO_Port, D7_Pin);
+	  	HAL_GPIO_TogglePin(D8_GPIO_Port, D8_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D8_GPIO_Port, D8_Pin);
+	  	HAL_GPIO_TogglePin(D9_GPIO_Port, D9_Pin);
+	  	HAL_Delay(50);
+	  	HAL_GPIO_TogglePin(D9_GPIO_Port, D9_Pin);
+}
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */

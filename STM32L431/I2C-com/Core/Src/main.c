@@ -127,7 +127,7 @@ int main(void)
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 1);
 	   HAL_Delay(20);
-	   NTP_Write_eeprom(0x10, 0x3D, 0b00001101,0x00,0x01,0x00);
+	   NTP_Write_eeprom(0x00, 0x02, 0b00001101,0xAA,0x01,0xBB);
 	   HAL_Delay(20);
 	   NTP_Read_eeprom(0x00, 0x02, rx_buffer);
 	   HAL_GPIO_WritePin(NFC_Vcc_GPIO_Port, NFC_Vcc_Pin, 0);

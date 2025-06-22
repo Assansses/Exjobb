@@ -1,10 +1,10 @@
-19:23:39 **** Incremental Build of configuration Debug for project Display ****
+15:30:18 **** Incremental Build of configuration Debug for project Display ****
 make -j4 all 
 arm-none-eabi-size  Display.elf 
    text	   data	    bss	    dec	    hex	filename
-   9004	     12	   1668	  10684	   29bc	Display.elf
+   8980	     12	   1668	  10660	   29a4	Display.elf
 Finished building: default.size.stdout
  
 
-19:23:40 Build Finished. 0 errors, 0 warnings. (took 449ms)
+15:30:19 Build Finished. 0 errors, 0 warnings. (took 499ms)
 
